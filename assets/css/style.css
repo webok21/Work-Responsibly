@@ -13,6 +13,10 @@ body {
 
 /* nav */
 
+nav {
+    position: absolute;
+    left: 9%;
+}
 nav ul {
     padding: 0;
 }
@@ -45,7 +49,7 @@ header h2 {
     font-size: 3.1em;
     margin: 0;
     padding-top: 2vh;
-    padding-bottom: 6vh;
+    padding-bottom: 16vh;
 }
 header h3 {
     font-size: 1em;
@@ -86,7 +90,7 @@ section:first-of-type h1 {
 }
 section:first-of-type h2 {
     font-size: 1em;
-    padding: 2vh 5% 4vh 10%;
+    padding: 0 5% 5vh 10%;
 }
 section div {
     margin: 0;
