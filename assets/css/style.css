@@ -1,0 +1,157 @@
+/* farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+
+/* nav */
+
+nav ul {
+    padding: 0;
+}
+nav li {
+   display: inline-block;
+   font-size: 1.1em;
+   padding: 2vh;
+}
+nav a {
+    color: #659d89;
+    text-decoration: none;
+}
+
+
+/* header */
+
+header {
+    height: 105vh;
+    padding: 0 46% 2vh 10%;
+    border-bottom: 1px solid #666;
+}
+header h1 {
+    color: #659d89;
+    font-size: 3.6em;
+    margin: 0; 
+    padding-top: 20vh;
+}
+header h2 {
+    color: #000;
+    font-size: 3.1em;
+    margin: 0;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+}
+header h3 {
+    font-size: 1em;
+    padding-left: 3%;
+    padding-top: 6vh;
+}
+header span {
+   font-size: 1.8em;
+   position: relative;
+   right: 2%;
+}
+
+/* social media links */
+div img {
+    width: 5%;
+    height: auto;
+    position: relative;
+    left: 175%;
+}
+div li {
+    padding: 2px;
+    list-style-type: none;
+}
+div a {
+    text-decoration: none;
+}
+
+
+/* 1. section emojis*/
+
+section:first-of-type {
+    height: 105vh;
+    padding: 5vh 11% 0 11%;
+    border-bottom: 1px solid #666;
+}
+section:first-of-type h1 {
+    font-size: 1.7em;
+}
+section:first-of-type h2 {
+    font-size: 1em;
+    margin-bottom: 10vh;
+}
+section:first-of-type img {
+    margin: 2%;
+}
+
+/* 2. section fotos*/
+
+section:last-of-type {
+    border-bottom: 1px solid #666;
+}
+section:last-of-type h1 {
+    font-size: 1.7em;
+    margin: 10vh 0 0 10%;
+}
+section:last-of-type img {
+    width: 70%;
+}
+figure:nth-of-type(odd) {
+    text-align: center;
+    margin-right: 26%;
+}
+figure:nth-of-type(even) {
+    text-align: center;
+    margin-left: 26%;
+}
+figure p:first-of-type {
+    color: #666;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+}
+figure p:nth-of-type(2) {
+    font-size: 1.2em;
+}
+p:last-of-type {
+    color: #666;
+    font-size: 0.8em;
+}
+section figure {
+    margin: 0;
+}
+figure img {
+    margin-top: 12vh;
+} 
+figure:last-of-type p:last-of-type {
+    margin-bottom: 12%;
+}
+img:not(header img):hover {
+    box-shadow: 0 4px 8px 0 #666;
+}
+
+/* footer */
+
+footer { 
+    color: #666;
+    text-align: center;
+}
+footer h2 {
+    font-size: 1.5em;
+    padding: 10vh 0 10vh 1%;
+}
+footer h3 {
+    font-size: 0.8em;
+}
+footer span {
+    font-size: 1em;
+    position: relative;
+    right: 1%;
+ }
