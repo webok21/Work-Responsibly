@@ -32,7 +32,7 @@ nav a {
 header {
     height: 105vh;
     padding: 0 46% 2vh 10%;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #ccc;
 }
 header h1 {
     color: #659d89;
@@ -79,7 +79,7 @@ div a {
 section:first-of-type {
     height: 105vh;
     padding: 5vh 11% 0 11%;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #ccc ;
 }
 section:first-of-type h1 {
     font-size: 1.7em;
@@ -95,7 +95,7 @@ section:first-of-type img {
 /* 2. section fotos*/
 
 section:last-of-type {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #ccc;
 }
 section:last-of-type h1 {
     font-size: 1.7em;
