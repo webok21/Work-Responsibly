@@ -31,7 +31,7 @@ nav a {
 
 header {
     height: 105vh;
-    padding: 0 46% 2vh 10%;
+    padding: 0 46% 2% 10%;
     border-bottom: 1px solid #ccc;
 }
 header h1 {
@@ -59,7 +59,7 @@ header span {
 }
 
 /* social media links */
-div img {
+header div img {
     width: 5%;
     height: auto;
     position: relative;
@@ -86,11 +86,12 @@ section:first-of-type h1 {
 }
 section:first-of-type h2 {
     font-size: 1em;
-    margin-bottom: 10vh;
+    margin-bottom: 6%;
 }
-section:first-of-type img {
+section div img {
     margin: 2%;
 }
+
 
 /* 2. section fotos*/
 
